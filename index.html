@@ -1,23 +1,63 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>My awesome web page</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
 
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            margin: 20px;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+            .project img {
+                width: 100%;
+                height: auto;
+            }
+    </style>
+</head>
 <body>
-    Hi there, welcome to my portfolio website!
-    <h1>Phoenix Willis portfolio!</h1>
-    <img src="https://avatars.githubusercontent.com/u/100188069?v=4">
-    <ol>
-        <li>https://www.youtube.com/</li>
-        <li>https://www.instagram.com/</li>
-        <li>My favorite site is <a href="https://github.com">GitHub</a>!</li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li>https://www.youtube.com/</li>
-    </ol>
+    <header>
+        <h1>My Portfolio</h1>
+        <p>Welcome to my online portfolio.</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>I am a Web Developer with a passion for creating innovative and engaging digital solutions...</p>
+    </section>
+
+    <section>
+        <h2>My Work</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <img src="project1.png" alt="Project 1">
+            <p>Description of Project 1...</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <img src="project2.png" alt="Project 2">
+            <p>Description of Project 2...</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Contact Me</h2>
+        <p>For any enquiries, please email me at: <a href="mailto:example@example.com">example@example.com</a></p>
+    </section>
+</body>
 </html>
